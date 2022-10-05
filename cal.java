@@ -5,18 +5,18 @@ public class Calculator
 	{
 		System.out.println("--------Percentage Of 5 Subjects----------");
 		int Sub1,Sub2,Sub3,Sub4,Sub5,Per,Total;
-		Scanner ms_Scanner = new Scanner(System.in);
+		Scanner marks = new Scanner(System.in);
 		
 		System.out.println("Enter Marks of Sub1:");
-		Sub1 = ms_Scanner.nextInt();
+		Sub1 = marks.nextInt();
 		System.out.println("Enter Marks of Sub2:");
-		Sub2 = ms_Scanner.nextInt();
+		Sub2 = marks.nextInt();
 		System.out.println("Enter Marks of Sub3:");
-		Sub3 = ms_Scanner.nextInt();
+		Sub3 = marks.nextInt();
 		System.out.println("Enter Marks of Sub4:");
-		Sub4 = ms_Scanner.nextInt();
+		Sub4 = marks.nextInt();
 		System.out.println("Enter Marks of Sub5:");
-		Sub5 = ms_Scanner.nextInt();
+		Sub5 = marks.nextInt();
         
 		Total = Sub1+Sub2+Sub3+Sub4+Sub5;
 
@@ -25,3 +25,4 @@ public class Calculator
 		System.out.println("Percentage :"+Per+"%");
 	}
 }  
+
