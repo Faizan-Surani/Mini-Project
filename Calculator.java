@@ -16,7 +16,7 @@ public class Calculator
 		System.out.println("Enter Marks of Sub4:");
 		Sub4 = marks.nextInt();
 		System.out.println("Enter Marks of Sub5:");
-		Sub5 = marks.nextInt();
+		Sub5 = marks.nAextInt();
         
 		Total = Sub1+Sub2+Sub3+Sub4+Sub5;
 
